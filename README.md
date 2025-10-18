@@ -1,0 +1,119 @@
+# ADK Test
+
+## Quick Start Guide
+
+Follow these steps to get started with ADK for Python:
+
+### Step 0: Install Python (macOS)
+If you don't have Python installed:
+```bash
+# Using Homebrew (recommended)
+brew install python
+
+# Verify installation
+python3 --version
+```
+
+### Step 1: Set up Virtual Environment
+Create and activate a virtual environment to isolate your project dependencies:
+```bash
+# Create virtual environment
+python3 -m venv .venv
+
+# Activate virtual environment
+source .venv/bin/activate
+
+# You should see (.venv) in your terminal prompt
+```
+
+### Step 2: Install Python ADK
+```bash
+pip install adk
+```
+
+### Step 3: Initialize your project
+```bash
+adk init my-project
+cd my-project
+```
+
+### Step 4: Configure your application
+Edit the `adk.yaml` file to configure your application settings.
+
+### Step 5: Create your first component
+```bash
+adk generate component my-component
+```
+
+### Step 6: Build your application
+```bash
+adk build
+```
+
+### Step 7: Run your application
+```bash
+adk run
+```
+
+### Step 8: Deactivate Virtual Environment
+When you're done working on the project:
+```bash
+deactivate
+```
+
+For more detailed information, visit the [official ADK documentation](https://google.github.io/adk-docs/get-started/python/).
+
+## Description
+
+This repository contains test implementations and examples for ADK development.
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.8 or higher
+- pip (Python package manager)
+- Virtual environment support
+
+### Installation
+
+1. Clone the repository
+    ```bash
+    git clone <repository-url>
+    cd adk-test
+    ```
+
+2. Set up virtual environment and install dependencies
+    ```bash
+    # Create and activate virtual environment
+    python3 -m venv .venv
+    source .venv/bin/activate
+    
+    # Install ADK
+    pip install adk
+    ```
+
+### Usage
+
+Describe how to use the project or run the tests.
+
+**Remember to activate your virtual environment each time you work on the project:**
+```bash
+source .venv/bin/activate
+```
+
+And deactivate when done:
+```bash
+deactivate
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
